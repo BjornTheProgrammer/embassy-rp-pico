@@ -3,37 +3,6 @@
 version = 3
 
 [[package]]
-name = "RaspberryPiStarter"
-version = "0.1.0"
-dependencies = [
- "cortex-m",
- "cortex-m-rt",
- "critical-section",
- "defmt",
- "defmt-rtt",
- "embassy-embedded-hal",
- "embassy-executor",
- "embassy-futures",
- "embassy-rp",
- "embassy-sync",
- "embassy-time",
- "embassy-usb",
- "embassy-usb-logger",
- "embedded-hal 1.0.0",
- "embedded-hal-async",
- "embedded-hal-bus",
- "embedded-io-async",
- "fixed",
- "fixed-macro",
- "log",
- "panic-probe",
- "pio",
- "pio-proc",
- "portable-atomic",
- "usbd-hid",
-]
-
-[[package]]
 name = "ahash"
 version = "0.8.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -453,6 +422,37 @@ dependencies = [
  "rp2040-boot2",
  "sha2-const-stable",
  "smart-leds",
+]
+
+[[package]]
+name = "embassy-rp-pico"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "critical-section",
+ "defmt",
+ "defmt-rtt",
+ "embassy-embedded-hal",
+ "embassy-executor",
+ "embassy-futures",
+ "embassy-rp",
+ "embassy-sync",
+ "embassy-time",
+ "embassy-usb",
+ "embassy-usb-logger",
+ "embedded-hal 1.0.0",
+ "embedded-hal-async",
+ "embedded-hal-bus",
+ "embedded-io-async",
+ "fixed",
+ "fixed-macro",
+ "log",
+ "panic-probe",
+ "pio",
+ "pio-proc",
+ "portable-atomic",
+ "usbd-hid",
 ]
 
 [[package]]
