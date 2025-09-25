@@ -1,5 +1,5 @@
 [target.'cfg(all(target_arch = "arm", target_os = "none"))']
-runner = "elf2uf2-rs -d -s -t"
+runner = "elf2flash -d -s -t --family 0xe48bff59"
 # runner = "probe-rs run --chip RP2040"
 
 [build]
